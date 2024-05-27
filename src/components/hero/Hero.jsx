@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.svg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <img src={profile_img} alt="" />
       <h1><span>I'm Krystal Wong,</span> a software developer based in Canada.</h1>
       <p>Some description here</p>
